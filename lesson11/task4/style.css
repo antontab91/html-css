@@ -13,8 +13,7 @@
     
     margin: 0;
     padding: 0;
-    text-decoration: underline;
-    text-decoration-style: dotted;
+    border-bottom: 1px dashed black;
 }
 .title{
     background-color: grey;
@@ -22,4 +21,6 @@
     padding: 8px;
     position: absolute;
     bottom: -40px;
+    color: white;
 }
+
