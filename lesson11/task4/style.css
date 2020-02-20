@@ -13,7 +13,7 @@
     
     margin: 0;
     padding: 0;
-    border-bottom: 1px dashed black;
+    border-bottom: 1px dotted black;
 }
 .title{
     background-color: grey;
