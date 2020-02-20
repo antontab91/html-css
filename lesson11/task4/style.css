@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+}
+
+.dropdown{
+    margin: 16px;
+    width: fit-content;
+    position: relative;
+    cursor: pointer;
+ 
+}
+.text{
+    
+    margin: 0;
+    padding: 0;
+    text-decoration: underline;
+    text-decoration-style: dotted;
+}
+.title{
+    background-color: grey;
+    border-radius: 4px;
+    padding: 8px;
+    position: absolute;
+    bottom: -40px;
+}
