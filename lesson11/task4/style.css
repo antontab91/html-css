@@ -22,5 +22,10 @@
     position: absolute;
     bottom: -40px;
     color: white;
+    display: none;
+}
+
+.dropdown:hover .title{
+    display: block;
 }
 
