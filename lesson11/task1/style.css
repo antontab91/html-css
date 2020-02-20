@@ -1,0 +1,13 @@
+.container>div {
+    width: 100px;
+    height: 100px;
+    background: coral;
+}
+
+.box1{
+    display: none;
+}
+
+.box2{
+    visibility: hidden;
+}
