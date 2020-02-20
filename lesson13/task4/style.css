@@ -1,6 +1,4 @@
-*{
-    box-sizing: border-box;
-}
+
 .gallery{
     height: 200px;
     display: flex;
