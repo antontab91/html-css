@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+}
+
+section{
+    margin: 32px;
+    font-size: 18px;
+}
+
+h1{
+    word-spacing: 20px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+p{
+    line-height: 28px;
+}
+
+.bold_txt{
+    font-weight: bold;
+    letter-spacing: 3px;
+    font-size: 24px;
+    opacity: 0.8;
+    text-decoration: underline;
+}
+
+a{
+    text-decoration: none;
+}
