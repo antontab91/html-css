@@ -23,7 +23,6 @@
     bottom: -40px;
     color: white;
     display: none;
-    letter-spacing: 0.6px;
 }
 
 .dropdown:hover .title{
