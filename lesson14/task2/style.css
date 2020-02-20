@@ -1,9 +1,9 @@
 .rectangle{
 
-    background: blueviolet;
+    background: aqua;
 }
 
 .text::first-letter{
-    color: green;
+    color: red;
     font-size: 24px;
 }
