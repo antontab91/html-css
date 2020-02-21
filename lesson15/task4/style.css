@@ -1,27 +1,28 @@
+.image-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
-
-.image{
-    display: block;
+.image {
     max-width: 100%;
-    border-radius: 20px;
-    margin: 0 auto;
-   
 }
 
-.image-button{
-    width: 200px;
+.image-button {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     height: 50px;
-    font-size: 12px;
-    font-weight: 700;
-    opacity: 0.5;
-    cursor: pointer;
-    text-transform: uppercase;
+    width: 200px;
     background-color: bisque;
-   
-    
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 700;
+    filter: opacity(0.5);
 }
 
-
-.image-button:hover{
-    opacity: 1;
+.image-button:hover {
+    filter: opacity(1);
+    cursor: pointer;
 }
