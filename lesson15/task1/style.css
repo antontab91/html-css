@@ -1,6 +1,6 @@
 
 .image-container{
-    margin: 50px auto ;
+    margin: 50px auto 0 ;
     max-width: 100%;
     display: block;
     border-radius: 20px;
@@ -8,6 +8,7 @@
 
 .galery{
     display: flex;
+    max-width: 50px;
 }
 
 figure{
