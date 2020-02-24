@@ -10,12 +10,12 @@
     position: relative;
 }
 
-.spinner-text{
+.spinner-text {
     font-family: monospace;
-    font-style: 16px;
+    font-size: 16px;
     text-transform: uppercase;
     animation: blinking 2s;
-    animation-direction: alternate;
+    animation-timing-function: linear;
     animation-iteration-count: infinite;
 }
 
