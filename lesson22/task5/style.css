@@ -24,9 +24,7 @@ h1 {
    justify-content: center;
 }
 
-.main {
-   flex-grow: 1;
-}
+
 
 .navigation {
    padding: 0.5em;
@@ -123,7 +121,7 @@ footer {
        width: 60vw;
    }
    .navigation {
-       width: 20vw;
+       width: 200vw;
    }
    .news {
        width: 20vw;
