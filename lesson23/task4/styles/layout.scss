@@ -15,47 +15,93 @@ $border-radius: 4px;
 }
 
 
+
+
 .container{
     &_inn{
         @include for-extra-small{
             display: flex;
-            
+            flex-grow: 1;       
         }
     }
 
     &__item{
-        height: 200px;
+        min-height: 200px;
         display: flex;
-         @include for-extra-small{
-                flex-grow: 1;
-            }
+         
         &_text{
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
             text-transform: lowercase;
-            padding: $unit*2;
-            border-radius: $unit;
-            background-color: #faedb7;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            padding: 8px;
+            background-color: #faebd7;
+            border-radius: 4px;
             margin: auto;
+     
         }
 
         &_first{
             background-color: #ff7f50;
+            flex-grow: 1;
 
             @include for-extra-small{
-                flex-basis: 1;
+                width: 25vw;       
+            }
+
+            @include for-medium{
+                width: 33.333333333vw;
+                flex-grow: 2;   
             }
         }
 
         &_second{
             background-color: #006400;
+            flex-grow: 1;
 
-             @include for-extra-small{
-                flex-basis: 1;
+            @include for-extra-small{
+                width: 25vw;       
             }
+
+            @include for-medium{
+                width: 33.333333333vw;
+                flex-grow: 2;   
+            }
+
         }
 
         &_third{
             background-color: #0ff;
+            @include for-medium{
+                width: 33.333333333vw;
+                flex-grow: 1;   
+            }
         }
+    }
+}
+
+
+
+
+
+
+
+
+@media screen and (min-width: 900px) {
+    
+    .products-list {
+        
+    }
+    .navigation {
+        background-color: #ff7f50;
+        display: flex;
+        min-height: 200px;
+        flex-grow: 2;
+        width: 33.33333333vw;
+    }
+    .news {
+        background-color: #0ff;
+        min-height: 200px;
+        display: flex;
+        width: 33.33333333vw;
+        flex-grow: 1;
     }
 }
