@@ -49,12 +49,6 @@
 .container__item_third {
   background-color: #0ff;
 }
-@media screen and (min-width: 900px) {
-  .container__item_third {
-    width: 33.333333333vw;
-    flex-grow: 1;
-  }
-}
 
 * {
   box-sizing: border-box;

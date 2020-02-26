@@ -70,10 +70,10 @@ $border-radius: 4px;
 
         &_third{
             background-color: #0ff;
-            @include for-medium{
-                width: 33.333333333vw;
-                flex-grow: 1;   
-            }
+            // @include for-medium{
+            //     width: 33.333333333vw;
+            //     flex-grow: 1;   
+            // }
         }
     }
 }
