@@ -1,28 +1,42 @@
-@import 'breackpoints.scss';
+@import 'breakpoints.scss';
 
-*{
+* {
     box-sizing: border-box;
 }
 
-body{
+.container {
+    @include for-landscape {
+        display: flex;
+    }
+    @include for-portrait {
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
+
+body {
     display: flex;
     align-items: center;
     justify-content: center;
     height: 100vh;
 }
 
-.square{
+.square {
     width: 100px;
     height: 100px;
-    background-color: coral;
-    margin: 16px;
-
-    @include for-medium-up{
-        background-color: aqua;
+    background-color: #ff7f50;
+    margin: 8px;
+    
+    @include for-medium {
+        background-color: #8a2be2;
     }
-
-    @include for-medium-up{
-        background-color: gold;
+    @include for-large {
+        background-color: #a61;
+    }
+    @include for-extra-large {
+        background-color: #c47;
     }
 }
+
 
