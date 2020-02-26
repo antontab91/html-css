@@ -43,12 +43,10 @@ $border-radius: 4px;
             background-color: #ff7f50;
             flex-grow: 1;
 
-            @include for-extra-small{
-                width: 25vw;       
+            @include for-extra-small{     
             }
 
-            @include for-medium{
-                width: 33.333333333vw;
+            @include for-medium{ 
                 flex-grow: 2;   
             }
         }
@@ -58,11 +56,11 @@ $border-radius: 4px;
             flex-grow: 1;
 
             @include for-extra-small{
-                width: 25vw;       
+    
             }
 
             @include for-medium{
-                width: 33.333333333vw;
+
                 flex-grow: 2;   
             }
 
@@ -70,10 +68,7 @@ $border-radius: 4px;
 
         &_third{
             background-color: #0ff;
-            // @include for-medium{
-            //     width: 33.333333333vw;
-            //     flex-grow: 1;   
-            // }
+           
         }
     }
 }

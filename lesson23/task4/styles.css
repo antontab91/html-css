@@ -20,14 +20,8 @@
   background-color: #ff7f50;
   flex-grow: 1;
 }
-@media screen and (min-width: 600px) {
-  .container__item_first {
-    width: 25vw;
-  }
-}
 @media screen and (min-width: 900px) {
   .container__item_first {
-    width: 33.333333333vw;
     flex-grow: 2;
   }
 }
@@ -35,14 +29,8 @@
   background-color: #006400;
   flex-grow: 1;
 }
-@media screen and (min-width: 600px) {
-  .container__item_second {
-    width: 25vw;
-  }
-}
 @media screen and (min-width: 900px) {
   .container__item_second {
-    width: 33.333333333vw;
     flex-grow: 2;
   }
 }
