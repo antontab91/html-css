@@ -1,3 +1,25 @@
+.container__item {
+  height: 200px;
+  display: flex;
+}
+.container__item_text {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-transform: lowercase;
+  padding: 8px;
+  border-radius: 4px;
+  background-color: #faedb7;
+  margin: auto;
+}
+.container__item_first {
+  background-color: #ff7f50;
+}
+.container__item_second {
+  background-color: #006400;
+}
+.container__item_third {
+  background-color: #0ff;
+}
+
 * {
   box-sizing: border-box;
 }

@@ -1,0 +1,31 @@
+
+$unit: 4px;
+$border-radius: 4px;
+
+
+.container{
+    &__item{
+        height: 200px;
+        display: flex;
+        &_text{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            text-transform: lowercase;
+            padding: $unit*2;
+            border-radius: $unit;
+            background-color: #faedb7;
+            margin: auto;
+        }
+
+        &_first{
+            background-color: #ff7f50;
+        }
+
+        &_second{
+            background-color: #006400;
+        }
+
+        &_third{
+            background-color: #0ff;
+        }
+    }
+}
