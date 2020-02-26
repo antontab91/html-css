@@ -1,0 +1,21 @@
+@import 'layout.scss';
+
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    &__item{
+        &_first{
+
+        }
+
+        &_second{
+            
+        }
+
+        &_third{
+            
+        }
+    }
+}
