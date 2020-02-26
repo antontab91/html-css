@@ -56,23 +56,6 @@
   }
 }
 
-@media screen and (min-width: 900px) {
-  .navigation {
-    background-color: #ff7f50;
-    display: flex;
-    min-height: 200px;
-    flex-grow: 2;
-    width: 33.33333333vw;
-  }
-
-  .news {
-    background-color: #0ff;
-    min-height: 200px;
-    display: flex;
-    width: 33.33333333vw;
-    flex-grow: 1;
-  }
-}
 * {
   box-sizing: border-box;
 }
