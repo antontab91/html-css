@@ -1,6 +1,16 @@
+@media screen and (min-width: 600px) {
+  .container_inn {
+    display: flex;
+  }
+}
 .container__item {
   height: 200px;
   display: flex;
+}
+@media screen and (min-width: 600px) {
+  .container__item {
+    flex-grow: 1;
+  }
 }
 .container__item_text {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -13,8 +23,18 @@
 .container__item_first {
   background-color: #ff7f50;
 }
+@media screen and (min-width: 600px) {
+  .container__item_first {
+    flex-basis: 1;
+  }
+}
 .container__item_second {
   background-color: #006400;
+}
+@media screen and (min-width: 600px) {
+  .container__item_second {
+    flex-basis: 1;
+  }
 }
 .container__item_third {
   background-color: #0ff;
